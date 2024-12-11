@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 131, 152);
+    height: 100vh;
+}
+.game-container{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    background-color: lightpink;
+    border: 5px solid rgb(0, 0, 0);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.score{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.basket{
+    height: 30px;
+    width: 60px;
+    position: absolute;
+    background-color: hotpink;
+    bottom: 10px;
+    left: 170px;
+}
+.falling-item{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: deeppink;
+    left: 50px;
+    top: -50px;
+}
